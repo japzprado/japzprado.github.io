@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+		<meta charset="UTF-8">
+		<title>Jaypee Prado</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link rel="shortcut icon" href="images/icon.ico">
+		<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+
+	</head>
+	
+	<body>
+		<div>
+			<div class="prof-box">
+				<div id="contact-form">
+					<div class="head1">
+						<h1>Let's Chat!</h1> 
+						<h4>Should you need further information on my availablity.</h4> 
+					</div>
+						<p id="failure">Oopsss...something went wrong!</p>  
+						<p id="success">Your message was sent successfully. Thank you!</p>
+
+						   <form method="post" action="/">
+							<div>
+						      <label for="name">
+						      	<span class="required">Name: *</span> 
+						      	<input type="text" id="name" name="name" value="" placeholder="Your Name" required="required" tabindex="1" autofocus="autofocus" />
+						      </label> 
+							</div>
+							<div>
+						      <label for="email">
+						      	<span class="required">Email: *</span>
+						      	<input type="email" id="email" name="email" value="" placeholder="Your Email" tabindex="2" required="required" />
+						      </label>  
+							</div>
+							<div>		          
+						      <label for="subject">
+						      <span>Subject: </span>
+							      <select id="subject" name="subject" tabindex="4">   
+							         <option value="hello">Select Here!</option>
+							         <option value="quote">Full Time Job</option>  
+							         <option value="general">Part Time Job</option>
+							      </select>
+						      </label>
+							</div>
+							<div>		          
+						      <label for="message">
+						      	<span class="required">Message: *</span> 
+						      	<textarea id="message" name="message" placeholder="Please write your message here." tabindex="5" required="required"></textarea> 
+						      </label>  
+							</div>
+							<div>		           
+						      <button name="submit" type="submit" id="submit" >SEND</button> 
+							</div>
+						   </form>
+				</div>
+				
+				
+			</div>	
+			
+			
+		
+		</div>
+	
+	</body>
+
+</html>
