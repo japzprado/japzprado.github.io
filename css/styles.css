@@ -464,3 +464,22 @@ input:required, textarea:required {
         transform: rotate(360deg);
     }
 }
+
+.btn {
+  background: rgba(0,0,0,0.4);
+  margin-left: 680px;
+  padding: 5px 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: rgb(170, 187, 240);
+}
